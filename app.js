@@ -37,7 +37,7 @@ app.use(router);
 app.use(PicRoutes);
 app.use(indexRoutes);
 app.use(commentRoutes);
-var port = process.env.port || 8080;
+var port = process.env.port || 3000;
 app.listen(port,function(){
     console.log("server started");
     console.log(port);
